@@ -1,6 +1,6 @@
 
-Welcome to my cybersecurity portfolio, inspired by the **SOC Level 1 Path** on [TryHackMe](https://tryhackme.com/).  
-This repository documents my hands-on projects, analysis reports, and scripts that demonstrate my defensive security skills.
+Welcome to my cybersecurity portfolio. 
+This repository documents my hands-on projects, analysis reports, and scripts that demonstrate my defensive (and offensive) security skills.
 
 ---
 
@@ -33,7 +33,7 @@ Wireshark · Zeek · Splunk · ELK · Suricata · YARA · Volatility · Sigma ·
 
 ## 📈 Ongoing Learning
 - TryHackMe: [SOC Analyst Path 1](https://tryhackme.com/path/outline/soclevel1)
-- Certifications: CompTIA Security+, ISC2 CC, OCI AI Foundations
-- Next Goal: Build a live SIEM lab for real-time threat monitoring
+- Certifications: ISC2 CC, OCI AI Foundations, Cisco Packet Tracing
+
 
 
