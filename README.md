@@ -1,4 +1,4 @@
-# 🛡️ SOC Analyst Portfolio — Ayesha Niazi
+
 Welcome to my cybersecurity portfolio, inspired by the **SOC Level 1 Path** on [TryHackMe](https://tryhackme.com/).  
 This repository documents my hands-on projects, analysis reports, and scripts that demonstrate my defensive security skills.
 
