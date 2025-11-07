@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2025-11-07-16-38-56
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1100903354.191558	Fq86sz3dqrHBjXbv6k	CNGPYH3I9htamrlBR1	10.1.1.101	3177	10.1.1.1	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	160	160	0	0	F	-	-	-	-	-	-	-
+1100903354.809218	FusHjcNHVkIKdVQo6	CI3b9s1MzHXrm9zvbg	10.1.1.101	3179	209.225.11.237	80	HTTP	0	(empty)	application/xml	-	0.000000	T	T	433	433	0	0	F	-	-	-	-	-	-	-
+1100903355.447676	FJiuSy2VfWID10OJz9	CITLYaVmf12uZBrpe	10.1.1.101	3188	10.1.1.1	80	HTTP	0	(empty)	text/html	-	0.003960	T	F	4323	4323	0	0	F	-	-	-	-	-	-	-
+1100903355.567567	F9xrhhmDhEXkxEFX9	CVZ4gvt2P3r0a8847	10.1.1.101	3189	10.1.1.1	80	HTTP	0	(empty)	image/jpeg	-	0.008062	T	F	8281	8281	0	0	F	-	-	-	-	-	-	-
+1100903355.570729	FjRlb33EIdThziJPJl	CzA0DH2ZALFFG3vBC4	10.1.1.101	3190	10.1.1.1	80	HTTP	0	(empty)	image/jpeg	-	0.013058	T	F	9045	9045	0	0	F	-	-	-	-	-	-	-
+1100903357.425457	FH3blMon0lqlfKHm9	CUOBtE2kkFjvdDlvA6	10.1.1.101	3195	10.1.1.1	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	416	416	0	0	F	-	-	-	-	-	-	-
+1100903359.086139	FkEVnJ2RW4ZqOSXTW1	CvYBMPNpG4MobCb05	10.1.1.101	3196	10.1.1.1	80	HTTP	0	(empty)	text/html	-	0.000107	T	F	1263	1263	0	0	F	-	-	-	-	-	-	-
+1100903360.818621	FqjOXC3Ubajbfh4cXa	C6T6jD4PObKDGO9A6e	10.1.1.101	3197	10.1.1.1	80	HTTP	0	(empty)	text/html	-	0.000908	T	F	2232	2232	0	0	F	-	-	-	-	-	-	-
+1100903360.927034	FyL3WZ3qMRgaaEfxvd	CzoPeb3FvPX7cYC4v5	10.1.1.101	3198	10.1.1.1	80	HTTP	0	(empty)	image/jpeg	-	0.010040	T	F	8963	8963	0	0	F	-	-	-	-	-	-	-
+1100903360.930181	F0pX3P2fuPnPkFCjWh	CJXomA1OokCf9gXw56	10.1.1.101	3199	10.1.1.1	80	HTTP	0	(empty)	image/jpeg	-	0.014832	T	F	10730	10730	0	0	F	-	-	-	-	-	-	-
+1100903364.999927	FJZdTz3z1GpscFNJt4	C2r9dX3REbUpWjYSCg	10.1.1.101	3200	10.1.1.1	80	HTTP	0	(empty)	image/jpeg	-	0.268675	T	F	191515	191515	0	0	F	-	-	-	-	-	-	-
+#close	2025-11-07-16-38-56
