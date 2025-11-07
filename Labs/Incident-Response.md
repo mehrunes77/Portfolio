@@ -352,3 +352,12 @@ Recommended posture:
 
 If you want me to perform any additional cleanup (for example, run an independent remote verification or add further redaction mappings), tell me which step and I'll proceed.
 
+Verification & deduplication
+-----------------------------
+
+Verification: I cloned a mirror of the remote repository and searched its full object list for any references to `evidence/extracted_http/`. As of 2025-11-07 the remote mirror contains only `evidence/extracted_http.hashes` and no historical objects or filenames under `evidence/extracted_http/`, which indicates the repository history purge succeeded for the extracted artifacts.
+
+Deduplication: locally I consolidated extracted HTTP objects by SHA256. For any files that were byte-for-byte identical, I kept a single canonical filename (lexicographically-first) and removed duplicate copies. The canonical mapping is recorded in `evidence/extracted_http.hashes` (committed). A backup of the prior hashes file was saved as `evidence/extracted_http.hashes.bak` in case you want to review the previous mapping.
+
+Status: Evidence artifacts in the repo are now sanitized (only hashes and logs are tracked), duplicates removed locally, and the report references the canonical hashes. This report is ready to be considered final for the portfolio.
+
