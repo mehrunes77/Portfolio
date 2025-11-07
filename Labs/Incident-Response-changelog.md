@@ -48,7 +48,7 @@ Notes about placeholders and sanitization
 - The SHA256 hashes included in `Labs/Incident-Response.md` are placeholder/example hashes for the case study; extract and compute real hashes locally using the commands above if you add the sample PCAP to the repo.
 - I did not add any raw PCAP files or extracted binaries to this repository. If you want real artifacts committed, tell me whether you want them sanitized or kept out of the repo; I can (a) add sanitized Zeek/tshark outputs only, or (b) add the raw PCAP (not recommended for malware samples) under an `evidence/` directory with clear licensing/source attribution.
 
-Next recommended actions (pick one)
+Next recommended actions
 ----------------------------------
 1. I can download `http_with_jpegs.cap` myself, run Zeek/tshark, and commit sanitized logs (`zeek/*.log`, `tshark-timeline.csv`, and `extracted_http.hashes`) into `evidence/` and update the report with exact outputs. Say: "download and add sanitized outputs".
 2. If you prefer to run locally, run the reproducible commands above and paste the `extracted_http.hashes`, `tshark-timeline.csv`, or `zeek/*.log` here; I will update the report with real values.
