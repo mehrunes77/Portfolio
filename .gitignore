@@ -1,0 +1,7 @@
+# Ignore extracted HTTP objects created by analysis scripts
+/evidence/extracted_http/
+
+# Keep sanitized logs and hashes in repo
+!/evidence/*.hashes
+!/evidence/*.csv
+!/evidence/zeek/
